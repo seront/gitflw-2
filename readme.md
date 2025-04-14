@@ -10,3 +10,5 @@ cambio 5 agregando version
 cambio 6 agregando version
 
 Cambio 7 - readme
+
+Cambio 8 - prueba del mensaje: semver: feature
