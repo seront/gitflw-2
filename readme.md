@@ -16,3 +16,5 @@ Cambio 9 - prueba del mensaje: +semver: fix
 Cambio 10 - prueba del mensaje: +semver: minor
 
 cambio 11 - prueba del mensaje +semver: patch
+
+cambio 12 - test-branch-3 a develop main fix: cambiando la config
