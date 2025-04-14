@@ -13,6 +13,7 @@ merge-message-formats: {}
 update-build-number: true
 semantic-version-format: Strict
 commit-messagge-incrementing: true
+workflow: ""
 strategies:
 - Fallback
 - ConfiguredNextVersion
@@ -27,6 +28,7 @@ branches:
     tag: dev
     prevent-increment:
       when-current-commit-tagged: false
+      of-merged-branch: false
     track-merge-target: true
     track-merge-message: true
     regex: ^dev(elop)?(ment)?$
@@ -72,6 +74,7 @@ branches:
     mode: ContinuousDelivery
     increment: Inherit
     label: featurando
+    prevent-increment-of-merged-branch: false
     prevent-increment:
       when-current-commit-tagged: false
     track-merge-message: true
